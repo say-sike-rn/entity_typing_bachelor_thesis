@@ -65,8 +65,6 @@ if __name__ == "__main__":
     INPUT_PATH = "entity_registry_fixed.json"
     OUTPUT_PATH = "comp_player_training_data.json"
 
-    # You can list either local_name-style strings (e.g. "Alpine_skier")
-    # or full IRIs — both are checked.
     TARGET_CLASSES = [
     "Australian_Rules_Football_Player_Q13414980",
     "Badminton_player",

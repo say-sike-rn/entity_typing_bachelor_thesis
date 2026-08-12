@@ -68,7 +68,6 @@ if __name__ == "__main__":
     INPUT_CSV_PATH = "../../topics/bertopic_output_150/entities_with_topics.csv"
     OUTPUT_JSON_PATH = "../../training/topics_model1_trainingdata.json"
 
-    # List the bertopic topic numbers you want to keep.
     TARGET_TOPICS = [
         0,
         1,
@@ -94,7 +93,6 @@ if __name__ == "__main__":
         21,
         22,
         23,
-        # add more topic numbers here
     ]
 
     filter_by_bertopic_topic(INPUT_CSV_PATH, OUTPUT_JSON_PATH, TARGET_TOPICS)
