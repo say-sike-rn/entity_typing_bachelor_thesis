@@ -26,7 +26,7 @@ from collections import defaultdict
 from datetime import datetime
 
 from bert_cascade import CascadeNode, label_to_iri, run_bert_cascade
-from LLM_2 import (
+from LLM_loop import (
     DEFAULT_MODELS,
     _iri_to_label,
     build_prompt,

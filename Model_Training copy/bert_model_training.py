@@ -22,12 +22,6 @@ Option B: mount Google Drive and point `INPUT_PATH` at a file there (better if y
 
 """
 
-# Option A: upload directly
-#from google.colab import files
-#uploaded = files.upload()  # select your training_data.json in the picker
-#INPUT_PATH = list(uploaded.keys())[0]
-#print('Using input file:', INPUT_PATH)
-
 # Option B (alternative): mount Drive instead of the upload cell above
 from google.colab import drive
 drive.mount('/content/drive')

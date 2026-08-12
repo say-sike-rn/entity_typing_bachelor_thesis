@@ -12,7 +12,6 @@ from typing import Optional
 
 YAGO_NS = "http://yago-knowledge.org/resource/"
 
-# model_dir -> (tokenizer, model, device), so each model is loaded once per run.
 _MODEL_CACHE: dict = {}
 
 
